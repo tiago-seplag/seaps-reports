@@ -1,0 +1,43 @@
+{
+  "name": "react-server-side",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/index.js",
+    "build:css": "npx tailwindcss -i ./styles/tailwind.css -o ./styles/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.6",
+    "clsx": "^2.1.1",
+    "express": "^5.1.0",
+    "postcss": "^8.5.3",
+    "puppeteer": "^24.8.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.5",
+    "@types/express": "^5.0.1",
+    "@types/react": "^19.1.3",
+    "@types/react-dom": "^19.1.4",
+    "nodemon": "^3.1.0"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "js,jsx",
+    "ignore": [
+      "src/styles/output.css"
+    ]
+  }
+}
