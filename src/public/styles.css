@@ -438,6 +438,7 @@
   text-align: start;
   margin-left: auto;
   font-family: sans-serif;
+  line-height: 1.2rem;
 }
 .footer > h3 {
   margin: 0;

@@ -4,15 +4,18 @@ import path from "path";
 import fs from "fs";
 import { renderToString } from "react-dom/server";
 import { Report } from "./views/report";
+import { configDotenv } from "dotenv";
+
+configDotenv();
 
 const app = express();
+
+app.use(express.json());
 
 app.use(express.static("src/public"));
 
 app.post("/", async (req, res) => {
   const data = req.body;
-
-  console.log(data);
 
   const html = renderToString(<Report data={data} />);
 
@@ -35,6 +38,14 @@ app.post("/", async (req, res) => {
                 </style>
             </head>
             <body>
+                <div className="logo-footer">
+                <div class="logo-footer">
+                  <img src="https://seplag.mt.gov.br/img/LOGO%20SEPLAG%20-%20BRANCO%20(T)%20VAZADO.png" alt="seplag-logo"/>
+                </div>
+                <div class="footer">
+                  <h3>SEAPS</h3>
+                  <p>Secretaria Adjunta de Patrimônio e Serviços</p>
+                </div>
                 <div id="root">${html}</div>
             </body>
             </html>
@@ -73,7 +84,10 @@ app.post("/", async (req, res) => {
 
     await browser.close();
 
-    res.setHeader("Content-Type", "application/pdf");
+    res.setHeader(
+      "Content-Disposition",
+      `attachment; filename=${data.sid.replace("/", "-")}.pdf`,
+    );
 
     res.send(pdfBuffer);
   } catch (error) {
@@ -84,7 +98,7 @@ app.post("/", async (req, res) => {
 
 app.get("/view", async (req, res) => {
   const cssPath = path.resolve("src/public/styles.css");
-  const html = renderToString(<Report />);
+  const html = renderToString(<Report data={data} />);
   const styles = fs.readFileSync(cssPath, "utf8");
 
   const fullHtml = `
@@ -103,6 +117,14 @@ app.get("/view", async (req, res) => {
                 </style>
             </head>
             <body>
+                <div className="logo-footer">
+                <div class="logo-footer">
+                  <img src="https://seplag.mt.gov.br/img/LOGO%20SEPLAG%20-%20BRANCO%20(T)%20VAZADO.png" alt="seplag-logo"/>
+                </div>
+                <div class="footer">
+                  <h3>SEAPS</h3>
+                  <p>Secretaria Adjunta de Patrimônio e Serviços</p>
+                </div>
                 <div id="root">${html}</div>
             </body>
             </html>
@@ -111,7 +133,7 @@ app.get("/view", async (req, res) => {
   res.send(fullHtml);
 });
 
-app.listen(8080, () => {
-  console.log("Server is running on port 8080");
-  console.log("http://localhost:8080/");
+app.listen(process.env.PORT, () => {
+  console.log(`Server is running on port ${process.env.PORT}`);
+  console.log(`http://localhost:${process.env.PORT}/`);
 });

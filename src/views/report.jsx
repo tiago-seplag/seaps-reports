@@ -148,10 +148,7 @@ const Report = ({ data }) => {
                   </Label>
                 </Line>
                 <Line>
-                  <Label
-                    title={"OBSERVAÇÃO:"}
-                    className={"line-clamp-2 text-wrap"}
-                  >
+                  <Label title={"OBSERVAÇÃO"} className={"text-wrap"}>
                     {item.observation}
                   </Label>
                 </Line>
@@ -161,8 +158,9 @@ const Report = ({ data }) => {
                       <img
                         className="h-[200px] w-full object-cover"
                         src={
-                          "http://localhost:3000/api" +
-                          `${image.image}?compress=true`
+                          process.env.BUCKET_URL +
+                          image.image +
+                          "?compress=true"
                         }
                         alt="Minha Figura"
                       />
@@ -176,7 +174,6 @@ const Report = ({ data }) => {
             ),
         )}
       </section>
-      <Footer />
     </>
   );
 };
