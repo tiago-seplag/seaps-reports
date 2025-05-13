@@ -10,11 +10,11 @@ const Indicator = ({ score }) => {
         score > 2.5
           ? "border-green-600"
           : score < 1.5
-          ? "border-red-600"
-          : "border-yellow-600"
+            ? "border-red-600"
+            : "border-yellow-600",
       )}
     >
-      <div className="border-b border-blue-800 inline-flex w-full text-lg text-base font-bold text-nowrap items-center justify-between">
+      <div className="border-primary inline-flex w-full items-center justify-between border-b text-lg font-bold text-nowrap">
         <p>INDICADOR DE MANUTENÇÃO DO IMÓVEL:</p>
 
         <div className="inline-flex gap-2">
