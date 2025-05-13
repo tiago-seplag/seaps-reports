@@ -26,28 +26,34 @@ const Report = ({ data }) => {
 
   return (
     <>
-      <h1 className="mb-2 text-center text-3xl font-bold">
+      <h1
+        className="text-center text-3xl font-bold"
+        style={{ lineHeight: "2rem" }}
+      >
         CHECKLIST MANUTENÇÃO PREDIAL
       </h1>
+      <p className="text-center" style={{ fontSize: "0.8rem" }}>
+        Decreto Nº 1387, De 25 de Março de 2025
+      </p>
       <Card className={"mb-2"}>
         <Line>
-          <Label title={"ÓRGÃO"}>{data.organization.name}</Label>
-          <Label title={"UNIDADE ADMINISTRATIVA"}>{data.property.name}</Label>
+          <Label title={"ÓRGÃO"}>{data.organization?.name}</Label>
+          <Label title={"UNIDADE ADMINISTRATIVA"}>{data.property?.name}</Label>
         </Line>
         <Line>
           <Label title={"RESPONSÁVEL PELA UNIDADE"}>
-            {data.property.person.name}
+            {data.property.person?.name}
           </Label>
         </Line>
         <Line>
-          <Label title={"CARGO"}>{data.property.person.role}</Label>
+          <Label title={"CARGO"}>{data.property?.person?.role}</Label>
           <Label title={"TEL."}>
-            {formatPhone(data.property.person.phone)}
+            {formatPhone(data.property?.person?.phone)}
           </Label>
         </Line>
         <Line>
           <Label title={"ENDEREÇO"} className={"line-clamp-2 text-wrap"}>
-            {data.property.address}
+            {data.property?.address}
           </Label>
         </Line>
       </Card>

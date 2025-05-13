@@ -2,9 +2,12 @@ import puppeteer from "puppeteer";
 import express from "express";
 import path from "path";
 import fs from "fs";
+import { configDotenv } from "dotenv";
+
 import { renderToString } from "react-dom/server";
 import { Report } from "./views/report";
-import { configDotenv } from "dotenv";
+import morganMiddleware from "./middlewares/morgan";
+import logger from "./utils/logger";
 
 configDotenv();
 
@@ -14,15 +17,17 @@ app.use(express.json());
 
 app.use(express.static("src/public"));
 
+app.use(morganMiddleware);
+
 app.post("/", async (req, res) => {
   const data = req.body;
+  try {
+    const html = renderToString(<Report data={data} />);
 
-  const html = renderToString(<Report data={data} />);
+    const cssPath = path.resolve("src/public/styles.css");
+    const styles = fs.readFileSync(cssPath, "utf8");
 
-  const cssPath = path.resolve("src/public/styles.css");
-  const styles = fs.readFileSync(cssPath, "utf8");
-
-  const fullHtml = `
+    const fullHtml = `
             <!DOCTYPE html>
             <html>
             <head>
@@ -32,7 +37,7 @@ app.post("/", async (req, res) => {
                 <link
                   href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
                   rel="stylesheet"/>
-                <script src="https://cdn.jsdelivr.net/npm/pagedjs/dist/paged.polyfill.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/pagedjs/dist/paged.polyfill.min.js" defer></script>
                 <style>
                   ${styles}
                 </style>
@@ -51,7 +56,6 @@ app.post("/", async (req, res) => {
             </html>
         `;
 
-  try {
     const browser = await puppeteer.launch({
       headless: true,
       pipe: false,
@@ -68,7 +72,7 @@ app.post("/", async (req, res) => {
 
     const page = await browser.newPage();
 
-    await page.setContent(fullHtml, { waitUntil: "networkidle0" });
+    await page.setContent(fullHtml, { waitUntil: "networkidle0", timeout: 0 });
 
     const pdfBuffer = await page.pdf({
       format: "A4",
@@ -91,7 +95,7 @@ app.post("/", async (req, res) => {
 
     res.send(pdfBuffer);
   } catch (error) {
-    console.error("Erro ao gerar PDF:", error);
+    logger.error(error.message);
     res.status(500).send("Erro ao gerar PDF.");
   }
 });
