@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "babel-node ./src/index.js",
     "dev": "nodemon --exec babel-node ./src/index.js",
     "build:css": "npx @tailwindcss/cli -i ./src/public/paged.css  -o ./src/public/styles.css --watch"
   },
@@ -12,7 +13,6 @@
   "description": "",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.6",
-    "@tailwindcss/postcss": "^4.1.6",
     "clsx": "^2.1.1",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",

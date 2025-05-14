@@ -26,13 +26,10 @@ const Report = ({ data }) => {
 
   return (
     <>
-      <h1
-        className="text-center text-3xl font-bold"
-        style={{ lineHeight: "2rem" }}
-      >
+      <h1 className="text-center text-3xl/8 font-bold">
         CHECKLIST MANUTENÇÃO PREDIAL
       </h1>
-      <p className="text-center" style={{ fontSize: "0.8rem" }}>
+      <p className="text-center text-sm">
         Decreto Nº 1387, De 25 de Março de 2025
       </p>
       <Card className={"mb-2"}>

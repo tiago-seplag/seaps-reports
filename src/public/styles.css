@@ -12,6 +12,8 @@
     --color-green-600: oklch(62.7% 0.194 149.214);
     --color-blue-800: oklch(42.4% 0.199 265.638);
     --spacing: 0.25rem;
+    --text-sm: 0.875rem;
+    --text-sm--line-height: calc(1.25 / 0.875);
     --text-base: 1rem;
     --text-base--line-height: calc(1.5 / 1);
     --text-lg: 1.125rem;
@@ -217,26 +219,14 @@
   .flex-1 {
     flex: 1;
   }
-  .flex-grow {
-    flex-grow: 1;
-  }
-  .grow {
-    flex-grow: 1;
-  }
   .border-collapse {
     border-collapse: collapse;
   }
   .resize {
     resize: both;
   }
-  .break-before-auto {
-    break-before: auto;
-  }
   .break-before-page {
     break-before: page;
-  }
-  .break-inside-auto {
-    break-inside: auto;
   }
   .break-inside-avoid {
     break-inside: avoid;
@@ -276,9 +266,6 @@
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
-  }
-  .border-blue-800 {
-    border-color: var(--color-blue-800);
   }
   .border-green-600 {
     border-color: var(--color-green-600);
@@ -329,6 +316,22 @@
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
+  .text-3xl\/2 {
+    font-size: var(--text-3xl);
+    line-height: calc(var(--spacing) * 2);
+  }
+  .text-3xl\/6 {
+    font-size: var(--text-3xl);
+    line-height: calc(var(--spacing) * 6);
+  }
+  .text-3xl\/8 {
+    font-size: var(--text-3xl);
+    line-height: calc(var(--spacing) * 8);
+  }
+  .text-3xl\/16 {
+    font-size: var(--text-3xl);
+    line-height: calc(var(--spacing) * 16);
+  }
   .text-base {
     font-size: var(--text-base);
     line-height: var(--tw-leading, var(--text-base--line-height));
@@ -336,6 +339,10 @@
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
+  }
+  .text-sm {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -371,11 +378,6 @@
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
-  }
-  .first\:break-before-page {
-    &:first-child {
-      break-before: page;
-    }
   }
   .\[\&_tr\:last-child\]\:border-0 {
     & tr:last-child {
@@ -438,7 +440,6 @@
   text-align: start;
   margin-left: auto;
   font-family: sans-serif;
-  line-height: 1.2rem;
 }
 .footer > h3 {
   margin: 0;
