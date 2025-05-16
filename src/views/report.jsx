@@ -33,9 +33,14 @@ const Report = ({ data }) => {
         Decreto Nº 1387, De 25 de Março de 2025
       </p>
       <Card className={"mb-2"}>
-        <Line>
+        <Line className={"gap-4"}>
           <Label title={"ÓRGÃO"}>{data.organization?.name}</Label>
-          <Label title={"UNIDADE ADMINISTRATIVA"}>{data.property?.name}</Label>
+          <Label
+            title={"UNIDADE ADMINISTRATIVA"}
+            className={"flex-2 overflow-hidden text-ellipsis"}
+          >
+            {data.property?.name}
+          </Label>
         </Line>
         <Line>
           <Label title={"RESPONSÁVEL PELA UNIDADE"}>
