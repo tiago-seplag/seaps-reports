@@ -44,11 +44,11 @@ const Report = ({ data }) => {
         </Line>
         <Line>
           <Label title={"RESPONSÁVEL PELA UNIDADE"}>
-            {data.property.person?.name}
+            {data.property.person?.name ?? "--"}
           </Label>
         </Line>
         <Line>
-          <Label title={"CARGO"}>{data.property?.person?.role}</Label>
+          <Label title={"CARGO"}>{data.property?.person?.role ?? "--"}</Label>
           <Label title={"TEL."}>
             {formatPhone(data.property?.person?.phone)}
           </Label>
