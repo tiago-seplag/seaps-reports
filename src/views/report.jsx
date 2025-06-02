@@ -148,11 +148,11 @@ const Report = ({ data }) => {
                 <Line>
                   <Label title={"ITEM"}>{item.item.name}</Label>
                   <Label title={"PONTUAÇÃO"}>
-                    {item.score > 2.5
+                    {item.score === 3
                       ? "BOM"
-                      : item.score < 1.5
-                        ? "RUIM"
-                        : "REGULAR"}
+                      : item.score === 1
+                        ? "REGULAR"
+                        : "RUIM"}
                   </Label>
                 </Line>
                 <Line>
