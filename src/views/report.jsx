@@ -83,7 +83,7 @@ const Report = ({ data }) => {
             </tr>
           </thead>
           <tbody>
-            {data.checklistItems.map((item) => (
+            {data.items.map((item) => (
               <tr key={item.id} className="border-primary border-b">
                 <TableCell width="60%">{item.item.name}</TableCell>
                 <TableCell className="text-center">
@@ -141,7 +141,7 @@ const Report = ({ data }) => {
         </Line>
       </Card>
       <section className="flex h-full flex-col">
-        {data.checklistItems.map(
+        {data.items.map(
           (item) =>
             item.score !== 0 && (
               <Card key={item.id} className={"flex break-before-page flex-col"}>
