@@ -140,7 +140,7 @@ const Report = ({ data }) => {
           </Label>
         </Line>
       </Card>
-      <section className="flex h-full flex-col">
+      {/* <section className="flex h-full flex-col">
         {data.items.map(
           (item) =>
             item.score !== 0 && (
@@ -181,7 +181,7 @@ const Report = ({ data }) => {
               </Card>
             ),
         )}
-      </section>
+      </section> */}
     </>
   );
 };
