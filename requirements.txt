@@ -1,2 +1,2 @@
-WeasyPrint==62.3
+WeasyPrint==68.1
 Pillow==11.1.0

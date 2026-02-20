@@ -1,0 +1,1085 @@
+{
+  "id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+  "sid": "0159/25",
+  "organization_id": "35d117af-2e52-44b5-950b-7ef3f81fc7a0",
+  "model_id": "b98674f9-c10c-4baf-b8d5-264821a57bb3",
+  "property_id": "1bb34b48-a76b-4764-9e53-d58425236407",
+  "user_id": "66915fb5-5e24-4d6c-b1d4-2c70d0786a50",
+  "score": 3,
+  "classification": 2,
+  "status": "APPROVED",
+  "return": 0,
+  "is_returned": false,
+  "is_deleted": false,
+  "finished_at": "2026-02-04T14:01:47.323Z",
+  "created_at": "2025-11-19T12:17:27.323Z",
+  "updated_at": "2025-11-19T12:17:27.323Z",
+  "validated_by": "62fa6c3b-7374-48d0-806b-ee91330aa062",
+  "organization": {
+    "name": "SEPLAG",
+    "acronym": "SEPLAG",
+    "id": "35d117af-2e52-44b5-950b-7ef3f81fc7a0"
+  },
+  "user": {
+    "name": "MIKAELA SANTA DOS SANTOS",
+    "id": "66915fb5-5e24-4d6c-b1d4-2c70d0786a50"
+  },
+  "property": {
+    "name": "SECRETARIA DE ESTADO DE PLANEJAMENTO E GESTÃO - SEPLAG-MT",
+    "id": "1bb34b48-a76b-4764-9e53-d58425236407",
+    "address": "RUA C - CENTRO POLÍTICO ADMINISTRATIVO, CUIABÁ - MT, 78049-005",
+    "type": "OWN",
+    "created_at": "2025-11-19T12:12:17.538Z",
+    "updated_at": "2025-11-19T13:21:05.170Z",
+    "person_id": "14cda54c-0bd2-405b-b253-2c2121333129",
+    "organization_id": "35d117af-2e52-44b5-950b-7ef3f81fc7a0",
+    "person": {
+      "name": "BASÍLIO BEZERRA GUIMARÃES DOS SANTOS",
+      "id": "14cda54c-0bd2-405b-b253-2c2121333129",
+      "email": "copi@seplag.gov.br",
+      "phone": "(65) 3613-3699",
+      "role": "SECRETÁRIO DE ESTADO DE PLANEJAMENTO E GESTÃO",
+      "created_at": "2025-11-19T13:16:46.148Z",
+      "updated_at": "2025-11-19T13:16:46.148Z"
+    }
+  },
+  "validator": {
+    "name": "TIAGO DANILO DE MATOS BANKOW",
+    "id": "62fa6c3b-7374-48d0-806b-ee91330aa062"
+  },
+  "items": [
+    {
+      "id": "008721ab-a87f-46e7-b9d8-b9ebe5f31ffe",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "23398564-426f-4df2-8c2e-7f4b04705283",
+      "score": 3,
+      "observation": null,
+      "image": "/image/a1016e08212f4e7c9949769c52635559.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:26:41.535Z",
+      "item": {
+        "id": "23398564-426f-4df2-8c2e-7f4b04705283",
+        "name": "BANHEIROS"
+      },
+      "images": [
+        {
+          "id": "d8cb1c24-5c07-43bf-a404-d295200790fb",
+          "checklist_item_id": "008721ab-a87f-46e7-b9d8-b9ebe5f31ffe",
+          "image": "/image/a1016e08212f4e7c9949769c52635559.jpeg",
+          "size": 61312,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:26:41.539Z"
+        },
+        {
+          "id": "20a7ec58-6170-422f-866d-285b20bc2953",
+          "checklist_item_id": "008721ab-a87f-46e7-b9d8-b9ebe5f31ffe",
+          "image": "/image/2ec36bb519d0497382dd01b3ba2e3dda.jpeg",
+          "size": 86070,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:26:41.539Z"
+        },
+        {
+          "id": "d3cd5d43-f1e8-4d00-9cba-74a7128e6368",
+          "checklist_item_id": "008721ab-a87f-46e7-b9d8-b9ebe5f31ffe",
+          "image": "/image/f04bc94cd2494dc1b03924aa29559dea.jpeg",
+          "size": 164638,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:26:41.539Z"
+        },
+        {
+          "id": "f4a5a48e-26e3-4f18-a47b-4752bec7d7b7",
+          "checklist_item_id": "008721ab-a87f-46e7-b9d8-b9ebe5f31ffe",
+          "image": "/image/9c859b3eeb6e4a28864332ae303f2f04.jpeg",
+          "size": 67912,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:26:41.539Z"
+        }
+      ]
+    },
+    {
+      "id": "6f73b5c8-0163-4eab-affc-62778fbfffd3",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "d836c520-42b9-40fd-ae3d-dda84b24e3e3",
+      "score": 3,
+      "observation": null,
+      "image": "/image/3b1da970bebb4e48b067578a0cb1bcca.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:30:40.208Z",
+      "item": {
+        "id": "d836c520-42b9-40fd-ae3d-dda84b24e3e3",
+        "name": "CALÇADA"
+      },
+      "images": [
+        {
+          "id": "defc5940-285d-4402-ba2d-cf403828309f",
+          "checklist_item_id": "6f73b5c8-0163-4eab-affc-62778fbfffd3",
+          "image": "/image/3b1da970bebb4e48b067578a0cb1bcca.jpeg",
+          "size": 194026,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:27:20.837Z"
+        },
+        {
+          "id": "bd3fe980-b676-4ae5-9db1-76b8a529b13f",
+          "checklist_item_id": "6f73b5c8-0163-4eab-affc-62778fbfffd3",
+          "image": "/image/d866514ecb8a49da930b052ee4ba8b92.jpeg",
+          "size": 247971,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:27:20.837Z"
+        },
+        {
+          "id": "d271034e-b96b-465d-b90d-498a7b2dc571",
+          "checklist_item_id": "6f73b5c8-0163-4eab-affc-62778fbfffd3",
+          "image": "/image/e1b0eb260a154e1b84d194a1ffb98bae.jpeg",
+          "size": 231593,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:27:20.837Z"
+        },
+        {
+          "id": "d7a60ec1-daca-4bf1-a2e2-51a882939108",
+          "checklist_item_id": "6f73b5c8-0163-4eab-affc-62778fbfffd3",
+          "image": "/image/72e6f451b87b45bcbcfbf820ec835f9b.jpeg",
+          "size": 235475,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:27:20.837Z"
+        },
+        {
+          "id": "1d412b69-c870-498a-bfa4-184f39d93961",
+          "checklist_item_id": "6f73b5c8-0163-4eab-affc-62778fbfffd3",
+          "image": "/image/a2a19b757fd741e49ee823ff50c0bf11.jpeg",
+          "size": 225814,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:27:20.837Z"
+        }
+      ]
+    },
+    {
+      "id": "401ec94d-a1bd-4f4d-b1d4-2aa77375a63c",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "11923f4e-d254-447c-ae26-db83b3d1f998",
+      "score": 0,
+      "observation": null,
+      "image": null,
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:27:35.090Z",
+      "item": {
+        "id": "11923f4e-d254-447c-ae26-db83b3d1f998",
+        "name": "CERCAMENTO"
+      },
+      "images": []
+    },
+    {
+      "id": "9a580e97-f002-425a-8d5a-3a2b1c084f17",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "e281b891-8910-41fe-a721-682850cebd18",
+      "score": 3,
+      "observation": null,
+      "image": "/image/c3251b6ea7ca46ad9476f8f17b7d0897.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:41:01.658Z",
+      "item": {
+        "id": "e281b891-8910-41fe-a721-682850cebd18",
+        "name": "CONDICIONADORES DE AR"
+      },
+      "images": [
+        {
+          "id": "792a6add-79a1-49ad-bc9f-d2a5b332b742",
+          "checklist_item_id": "9a580e97-f002-425a-8d5a-3a2b1c084f17",
+          "image": "/image/5604993305fa4bfcbddcb513331d7865.jpeg",
+          "size": 77867,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:35:10.674Z"
+        },
+        {
+          "id": "2f83ba42-c163-42c2-ab8b-ef2c0ec1a978",
+          "checklist_item_id": "9a580e97-f002-425a-8d5a-3a2b1c084f17",
+          "image": "/image/1f706e8273ca4f43aff29046ca1c7cda.jpeg",
+          "size": 104607,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:35:10.674Z"
+        },
+        {
+          "id": "9dbe8992-fdcc-43d2-a82f-f6f9c0209a78",
+          "checklist_item_id": "9a580e97-f002-425a-8d5a-3a2b1c084f17",
+          "image": "/image/c3251b6ea7ca46ad9476f8f17b7d0897.jpeg",
+          "size": 101275,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:41:01.661Z"
+        }
+      ]
+    },
+    {
+      "id": "3387e651-b892-4673-b1f3-f0ff37be6895",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "63079290-19c4-4027-9553-82c1ee697b19",
+      "score": 0,
+      "observation": null,
+      "image": null,
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:42:47.114Z",
+      "item": {
+        "id": "63079290-19c4-4027-9553-82c1ee697b19",
+        "name": "COZINHA/CANTINA"
+      },
+      "images": []
+    },
+    {
+      "id": "0f7b4884-bdd4-4a4f-bbba-bb903a00c0ce",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "dd82ebcd-9acd-4b34-88a6-e695c75a3e4f",
+      "score": 3,
+      "observation": null,
+      "image": "/image/4c7e6cf4e4ef482fb14c828421a5f2e8.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:43:08.520Z",
+      "item": {
+        "id": "dd82ebcd-9acd-4b34-88a6-e695c75a3e4f",
+        "name": "EQUIPAMENTOS DE INFORMÁTICA"
+      },
+      "images": [
+        {
+          "id": "58b6e6ee-0b5d-45e5-bd81-a65b12e03d13",
+          "checklist_item_id": "0f7b4884-bdd4-4a4f-bbba-bb903a00c0ce",
+          "image": "/image/ca555346a3c04f3e83f2bfbdb6bf5d11.jpeg",
+          "size": 188484,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:42:56.709Z"
+        },
+        {
+          "id": "fb84c051-94e5-4d40-b4ce-ef5f6cbef54a",
+          "checklist_item_id": "0f7b4884-bdd4-4a4f-bbba-bb903a00c0ce",
+          "image": "/image/4c7e6cf4e4ef482fb14c828421a5f2e8.jpeg",
+          "size": 208478,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:43:08.523Z"
+        },
+        {
+          "id": "957f6537-0758-414b-81bd-ac82f25dda72",
+          "checklist_item_id": "0f7b4884-bdd4-4a4f-bbba-bb903a00c0ce",
+          "image": "/image/ab42df1b8c9643409165478982b1c0e6.jpeg",
+          "size": 163244,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:43:08.523Z"
+        }
+      ]
+    },
+    {
+      "id": "4393b910-59b0-41a3-a14a-61e088516388",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "2c1bd545-9f5d-4941-8893-1ddf9ffc4c04",
+      "score": 3,
+      "observation": null,
+      "image": "/image/63eef5ad0828455e9264fe32e3850c4a.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:30:47.948Z",
+      "item": {
+        "id": "2c1bd545-9f5d-4941-8893-1ddf9ffc4c04",
+        "name": "ESCADAS/RAMPAS"
+      },
+      "images": [
+        {
+          "id": "170d99d0-b2ae-4d38-bf6b-827f84b1633c",
+          "checklist_item_id": "4393b910-59b0-41a3-a14a-61e088516388",
+          "image": "/image/63eef5ad0828455e9264fe32e3850c4a.jpeg",
+          "size": 157622,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:04.702Z"
+        },
+        {
+          "id": "581fa3d5-52c6-4b2e-8c9a-5f1ba5661f44",
+          "checklist_item_id": "4393b910-59b0-41a3-a14a-61e088516388",
+          "image": "/image/b41bf75935e244f5870e50d1324c3613.jpeg",
+          "size": 194823,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:04.702Z"
+        },
+        {
+          "id": "01a5359d-8004-4af4-a25c-aef5ee0c9f0b",
+          "checklist_item_id": "4393b910-59b0-41a3-a14a-61e088516388",
+          "image": "/image/469874450fdf4a5eb582e7e44b709052.jpeg",
+          "size": 139445,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:04.702Z"
+        },
+        {
+          "id": "a8eab003-b821-4b68-998c-457f6ca968fb",
+          "checklist_item_id": "4393b910-59b0-41a3-a14a-61e088516388",
+          "image": "/image/b4cfad4d332445319e141253bb2d89e0.jpeg",
+          "size": 289613,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:04.702Z"
+        },
+        {
+          "id": "9b823e17-c19b-408e-81ea-f168788bb098",
+          "checklist_item_id": "4393b910-59b0-41a3-a14a-61e088516388",
+          "image": "/image/6fff3a804b314ca49e23af3cac5920cd.jpeg",
+          "size": 249934,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:04.702Z"
+        },
+        {
+          "id": "771579dc-b5f9-4b3a-85c8-a4bf754230ff",
+          "checklist_item_id": "4393b910-59b0-41a3-a14a-61e088516388",
+          "image": "/image/30deef9c6b6e4f66bda01d0117194e78.jpeg",
+          "size": 196358,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:04.702Z"
+        }
+      ]
+    },
+    {
+      "id": "99c0b36e-4784-43af-9358-27939706e9f7",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "586a7291-9ad3-4858-ad01-109317bbf977",
+      "score": 3,
+      "observation": null,
+      "image": "/image/9555f3c8e5774c5d971b4b74f579855e.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:30:48.875Z",
+      "item": {
+        "id": "586a7291-9ad3-4858-ad01-109317bbf977",
+        "name": "FACHADAS"
+      },
+      "images": [
+        {
+          "id": "40d4e0b8-6ef2-49f7-9cd8-68d81f53a2e2",
+          "checklist_item_id": "99c0b36e-4784-43af-9358-27939706e9f7",
+          "image": "/image/9555f3c8e5774c5d971b4b74f579855e.jpeg",
+          "size": 163183,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:35.490Z"
+        },
+        {
+          "id": "b317e22e-611e-4014-bb53-95d25851d8b9",
+          "checklist_item_id": "99c0b36e-4784-43af-9358-27939706e9f7",
+          "image": "/image/418af30be05f4852b9205c4695544da3.jpeg",
+          "size": 158017,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:35.490Z"
+        },
+        {
+          "id": "154dc97f-9d71-4a76-8f29-5fecbb4d31bc",
+          "checklist_item_id": "99c0b36e-4784-43af-9358-27939706e9f7",
+          "image": "/image/940065c3ce0349a3b283cb10cffb608e.jpeg",
+          "size": 156326,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:35.490Z"
+        }
+      ]
+    },
+    {
+      "id": "5b2dd7d8-aeed-4760-b6d8-43e0f2a92011",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "6621fb63-968b-4003-8f31-7acf52872212",
+      "score": 3,
+      "observation": null,
+      "image": "/image/fd5f838df5374bed98371f4bb50f0436.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:35:43.140Z",
+      "item": {
+        "id": "6621fb63-968b-4003-8f31-7acf52872212",
+        "name": "ILUMINAÇÃO"
+      },
+      "images": [
+        {
+          "id": "cf2af494-7bb9-4214-9b7a-edc88231db36",
+          "checklist_item_id": "5b2dd7d8-aeed-4760-b6d8-43e0f2a92011",
+          "image": "/image/fd5f838df5374bed98371f4bb50f0436.jpeg",
+          "size": 121085,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:35:43.143Z"
+        },
+        {
+          "id": "296d5feb-8def-475c-9532-b997c5543c01",
+          "checklist_item_id": "5b2dd7d8-aeed-4760-b6d8-43e0f2a92011",
+          "image": "/image/4053158245974065b8615f6154b6017f.jpeg",
+          "size": 169220,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:35:43.143Z"
+        },
+        {
+          "id": "2c242d9a-d2b4-4dd2-b438-7d05670bdce0",
+          "checklist_item_id": "5b2dd7d8-aeed-4760-b6d8-43e0f2a92011",
+          "image": "/image/10451095bf334f95b24f7db13ccf8e8c.jpeg",
+          "size": 208478,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:35:43.143Z"
+        }
+      ]
+    },
+    {
+      "id": "c6ffa845-da09-4961-9c23-7c37db6f8e2e",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "161b0408-8bae-4069-929b-75af519d9745",
+      "score": 3,
+      "observation": null,
+      "image": "/image/f2b1ff562e8b43279021721cfe6ff9dc.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:42:37.410Z",
+      "item": {
+        "id": "161b0408-8bae-4069-929b-75af519d9745",
+        "name": "JANELAS"
+      },
+      "images": [
+        {
+          "id": "d080fa51-3aa0-4f3b-b142-c17ee6e6a0fc",
+          "checklist_item_id": "c6ffa845-da09-4961-9c23-7c37db6f8e2e",
+          "image": "/image/13fa48bc19dd43d6b227a2c0e6124253.jpeg",
+          "size": 160929,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:31:24.595Z"
+        },
+        {
+          "id": "4f91796d-913f-429e-8f22-712ba0b45642",
+          "checklist_item_id": "c6ffa845-da09-4961-9c23-7c37db6f8e2e",
+          "image": "/image/aa71b02b8d3a46e09d59368217f57f58.jpeg",
+          "size": 109519,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:31:24.595Z"
+        },
+        {
+          "id": "b7652eac-55fb-4ca6-b69b-51df6a32dc8e",
+          "checklist_item_id": "c6ffa845-da09-4961-9c23-7c37db6f8e2e",
+          "image": "/image/7530be32148d4f89a9baac1e744baf27.jpeg",
+          "size": 139878,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:31:24.595Z"
+        },
+        {
+          "id": "2eeeb273-2109-4f57-af89-caf7f2d1ebc9",
+          "checklist_item_id": "c6ffa845-da09-4961-9c23-7c37db6f8e2e",
+          "image": "/image/f2b1ff562e8b43279021721cfe6ff9dc.jpeg",
+          "size": 141783,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:42:37.413Z"
+        }
+      ]
+    },
+    {
+      "id": "3eb040d0-f04a-47e6-acd9-3a700991fde4",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "a2e96731-928a-4306-82a7-c82b24cbb825",
+      "score": 3,
+      "observation": null,
+      "image": "/image/c6954ef45cbb4c7d85b2b09a05909c89.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:30:53.170Z",
+      "item": {
+        "id": "a2e96731-928a-4306-82a7-c82b24cbb825",
+        "name": "JARDINAGEM"
+      },
+      "images": [
+        {
+          "id": "62d99a4a-7a72-4cec-b8e1-e3dd86e28466",
+          "checklist_item_id": "3eb040d0-f04a-47e6-acd9-3a700991fde4",
+          "image": "/image/c6954ef45cbb4c7d85b2b09a05909c89.jpeg",
+          "size": 200570,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:55.460Z"
+        },
+        {
+          "id": "5771c10d-da21-44ce-8c0e-a3faf2f93c69",
+          "checklist_item_id": "3eb040d0-f04a-47e6-acd9-3a700991fde4",
+          "image": "/image/0068ca488eca4a9b9bec2bf314014c40.jpeg",
+          "size": 231593,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:55.460Z"
+        },
+        {
+          "id": "cbf6cf2f-c2c5-4f42-acdf-89e8b36c355a",
+          "checklist_item_id": "3eb040d0-f04a-47e6-acd9-3a700991fde4",
+          "image": "/image/bf9b1f8b5b934591ab3b35e1e0c45988.jpeg",
+          "size": 179359,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:55.460Z"
+        },
+        {
+          "id": "f1c241d1-da90-4ed4-b23f-03771def147f",
+          "checklist_item_id": "3eb040d0-f04a-47e6-acd9-3a700991fde4",
+          "image": "/image/c6f2665727ae4d7b90d2e4818eb370dc.jpeg",
+          "size": 322813,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:55.460Z"
+        },
+        {
+          "id": "2a42f679-02f1-484a-9671-16ebdda3f6b8",
+          "checklist_item_id": "3eb040d0-f04a-47e6-acd9-3a700991fde4",
+          "image": "/image/60bf18ceec084743958cd92bb8983dc7.jpeg",
+          "size": 355250,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:29:55.460Z"
+        }
+      ]
+    },
+    {
+      "id": "c1f1f905-152d-4c14-8dea-eee68f5d0ffb",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "4ff307b8-c0aa-429e-a19f-469dc55f6955",
+      "score": 3,
+      "observation": null,
+      "image": "/image/1fae90e15110427289c53e716ec2aa3c.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:30:54.539Z",
+      "item": {
+        "id": "4ff307b8-c0aa-429e-a19f-469dc55f6955",
+        "name": "LIMPEZA ENTORNO DO IMÓVEL"
+      },
+      "images": [
+        {
+          "id": "2c444776-f46e-4606-9eca-71f2451bea59",
+          "checklist_item_id": "c1f1f905-152d-4c14-8dea-eee68f5d0ffb",
+          "image": "/image/1fae90e15110427289c53e716ec2aa3c.jpeg",
+          "size": 251525,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:30:19.843Z"
+        }
+      ]
+    },
+    {
+      "id": "b165cc7c-6ed2-4d26-b9ae-f8b3d2b11719",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "9e685229-646b-4dd0-99d5-27e021313e0c",
+      "score": 3,
+      "observation": null,
+      "image": "/image/e47e839f419b493597682cdff867c6e3.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:36:43.354Z",
+      "item": {
+        "id": "9e685229-646b-4dd0-99d5-27e021313e0c",
+        "name": "LIMPEZA INTERNA"
+      },
+      "images": [
+        {
+          "id": "15cd8f88-8c66-4b7c-ab41-8ea7c917dfac",
+          "checklist_item_id": "b165cc7c-6ed2-4d26-b9ae-f8b3d2b11719",
+          "image": "/image/4a72d8e8cff04b239ee4bd20a62ee73c.jpeg",
+          "size": 147090,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:30:48.449Z"
+        },
+        {
+          "id": "10f694de-cb92-4891-ad38-84cc2e79ec3e",
+          "checklist_item_id": "b165cc7c-6ed2-4d26-b9ae-f8b3d2b11719",
+          "image": "/image/e47e839f419b493597682cdff867c6e3.jpeg",
+          "size": 121085,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:36:43.359Z"
+        },
+        {
+          "id": "97caca94-8e1f-4f40-8f52-457c62c4dd36",
+          "checklist_item_id": "b165cc7c-6ed2-4d26-b9ae-f8b3d2b11719",
+          "image": "/image/839605331ea741089db57126373979a2.jpeg",
+          "size": 169220,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:36:43.359Z"
+        }
+      ]
+    },
+    {
+      "id": "cfa85cc5-e5e1-475b-9e49-9995a254e114",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "3bad9c85-465b-4e23-ad04-858e3a2a5e88",
+      "score": 3,
+      "observation": null,
+      "image": "/image/79ae28b39aca482fa68e469f5416df36.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:36:09.352Z",
+      "item": {
+        "id": "3bad9c85-465b-4e23-ad04-858e3a2a5e88",
+        "name": "MÓVEIS"
+      },
+      "images": [
+        {
+          "id": "cdb1f93d-454a-4a45-9724-7839d9655ffb",
+          "checklist_item_id": "cfa85cc5-e5e1-475b-9e49-9995a254e114",
+          "image": "/image/79ae28b39aca482fa68e469f5416df36.jpeg",
+          "size": 121085,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:36:09.355Z"
+        },
+        {
+          "id": "0fd54971-8ba8-4e9f-ac21-7a1872100843",
+          "checklist_item_id": "cfa85cc5-e5e1-475b-9e49-9995a254e114",
+          "image": "/image/efa010b72b0243db9fedc7950baa4431.jpeg",
+          "size": 188484,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:36:09.355Z"
+        },
+        {
+          "id": "8958598f-e88c-4804-86a6-470066e2c9fe",
+          "checklist_item_id": "cfa85cc5-e5e1-475b-9e49-9995a254e114",
+          "image": "/image/fd01ee57c1814521bebcc7295ba09a0d.jpeg",
+          "size": 152691,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:36:09.355Z"
+        },
+        {
+          "id": "38031230-5cbf-4f4a-b819-b69c7d88c80b",
+          "checklist_item_id": "cfa85cc5-e5e1-475b-9e49-9995a254e114",
+          "image": "/image/355ba5bdb29a4d129cea9f0cf2db4d73.jpeg",
+          "size": 163244,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:36:09.355Z"
+        },
+        {
+          "id": "ef81b064-0915-4da0-a09a-b5baa4cce57d",
+          "checklist_item_id": "cfa85cc5-e5e1-475b-9e49-9995a254e114",
+          "image": "/image/6bf9627ac62e4c3abcb8b6fadd2b07fe.jpeg",
+          "size": 100341,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:36:09.355Z"
+        },
+        {
+          "id": "b94a26c7-345b-400a-a3f5-10017688c027",
+          "checklist_item_id": "cfa85cc5-e5e1-475b-9e49-9995a254e114",
+          "image": "/image/0ab54aa9632f4ec7b731357a1e55bdf8.jpeg",
+          "size": 181484,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:36:09.355Z"
+        }
+      ]
+    },
+    {
+      "id": "edb9ae16-9b50-4508-84c0-a346618982bf",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "e5b3f885-6108-49aa-b633-7a8aed6c3132",
+      "score": 3,
+      "observation": null,
+      "image": "/image/73b9bf84af4c4ac888e7cf5414b15456.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:37:15.117Z",
+      "item": {
+        "id": "e5b3f885-6108-49aa-b633-7a8aed6c3132",
+        "name": "PAREDE"
+      },
+      "images": [
+        {
+          "id": "caae6cdd-9d2f-49c6-84aa-56ee2e3bd675",
+          "checklist_item_id": "edb9ae16-9b50-4508-84c0-a346618982bf",
+          "image": "/image/73b9bf84af4c4ac888e7cf5414b15456.jpeg",
+          "size": 121085,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:37:15.120Z"
+        },
+        {
+          "id": "f3fc6504-1a6f-4f92-925c-22063cfd41a3",
+          "checklist_item_id": "edb9ae16-9b50-4508-84c0-a346618982bf",
+          "image": "/image/b1b84262a7e7471aaf34c3a09e04a770.jpeg",
+          "size": 100341,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:37:15.120Z"
+        },
+        {
+          "id": "d789c04e-3899-4620-bd7b-e934149a02bb",
+          "checklist_item_id": "edb9ae16-9b50-4508-84c0-a346618982bf",
+          "image": "/image/eb75b5348bf741e994126fd6aab14688.jpeg",
+          "size": 163244,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:37:15.120Z"
+        }
+      ]
+    },
+    {
+      "id": "11d245e6-ec38-42f7-add1-d8f11570ba47",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "8c1c79d0-4b82-471a-a93a-445f0880ab77",
+      "score": 3,
+      "observation": null,
+      "image": "/image/e2939d2efe62442e938f0e42825fb4f7.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:37:55.799Z",
+      "item": {
+        "id": "8c1c79d0-4b82-471a-a93a-445f0880ab77",
+        "name": "PINTURAS"
+      },
+      "images": [
+        {
+          "id": "7589b87a-c6d1-4644-9aa6-0bc5aa353fcf",
+          "checklist_item_id": "11d245e6-ec38-42f7-add1-d8f11570ba47",
+          "image": "/image/e2939d2efe62442e938f0e42825fb4f7.jpeg",
+          "size": 77118,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:37:55.802Z"
+        },
+        {
+          "id": "4c432997-4ae8-4730-965c-8d255fe736b6",
+          "checklist_item_id": "11d245e6-ec38-42f7-add1-d8f11570ba47",
+          "image": "/image/1ac7042fc8454412ab6aeec4e3a38ae8.jpeg",
+          "size": 121085,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:37:55.802Z"
+        },
+        {
+          "id": "aeb4839b-07fe-49ae-a17b-89f932a84251",
+          "checklist_item_id": "11d245e6-ec38-42f7-add1-d8f11570ba47",
+          "image": "/image/000b2fb288244eb684eb4ab5818f7cc4.jpeg",
+          "size": 141783,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:37:55.802Z"
+        },
+        {
+          "id": "b716a3b6-c5b5-4df2-b291-96a948528cf0",
+          "checklist_item_id": "11d245e6-ec38-42f7-add1-d8f11570ba47",
+          "image": "/image/928e9400d9664c2d80795248f20af308.jpeg",
+          "size": 152691,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:37:55.802Z"
+        },
+        {
+          "id": "a1c1220b-a754-4974-89b5-ffbd38e3f18d",
+          "checklist_item_id": "11d245e6-ec38-42f7-add1-d8f11570ba47",
+          "image": "/image/1551886799a0475c871f2b4acf2fad30.jpeg",
+          "size": 163244,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:37:55.802Z"
+        },
+        {
+          "id": "1cc4d7b8-b333-47e7-8c5f-c3e3dc122e46",
+          "checklist_item_id": "11d245e6-ec38-42f7-add1-d8f11570ba47",
+          "image": "/image/4b9207ff50874ce7992e2cc4ee3dbf4a.jpeg",
+          "size": 100341,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:37:55.802Z"
+        }
+      ]
+    },
+    {
+      "id": "a3201914-bdd1-4d55-ae2a-349e0525f7ce",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "10d21398-a044-472b-921e-5c9036b1feae",
+      "score": 3,
+      "observation": null,
+      "image": "/image/ecc340254ab14ed1a371c157e2bb6f24.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:38:53.821Z",
+      "item": {
+        "id": "10d21398-a044-472b-921e-5c9036b1feae",
+        "name": "PISO"
+      },
+      "images": [
+        {
+          "id": "f30d0d60-4236-4e53-8f6b-257049196bd0",
+          "checklist_item_id": "a3201914-bdd1-4d55-ae2a-349e0525f7ce",
+          "image": "/image/ecc340254ab14ed1a371c157e2bb6f24.jpeg",
+          "size": 105013,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:38:53.825Z"
+        },
+        {
+          "id": "7895a827-6aa1-4747-acb6-015249f8f11a",
+          "checklist_item_id": "a3201914-bdd1-4d55-ae2a-349e0525f7ce",
+          "image": "/image/e7791f85b74248f8b9c73ed32512de94.jpeg",
+          "size": 134621,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:38:53.825Z"
+        },
+        {
+          "id": "332fc123-af6c-425a-9bc3-3d216e648e03",
+          "checklist_item_id": "a3201914-bdd1-4d55-ae2a-349e0525f7ce",
+          "image": "/image/55ea93f6312942dc8a705e3741203ed3.jpeg",
+          "size": 100341,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:38:53.825Z"
+        },
+        {
+          "id": "e3995f19-e965-4f31-9de5-ef7c6160c3c5",
+          "checklist_item_id": "a3201914-bdd1-4d55-ae2a-349e0525f7ce",
+          "image": "/image/50ce5c0e94c94f5d968daa2de8b569b1.jpeg",
+          "size": 163244,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:38:53.825Z"
+        },
+        {
+          "id": "d89fa0bb-3ac8-4ac8-a8df-eab9e18e18aa",
+          "checklist_item_id": "a3201914-bdd1-4d55-ae2a-349e0525f7ce",
+          "image": "/image/17010015b79e4a1ea13dcb22930c702f.jpeg",
+          "size": 181484,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:38:53.825Z"
+        }
+      ]
+    },
+    {
+      "id": "b7496008-ae39-426b-8ca4-12ef5739187e",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "6b565248-09c5-4c82-9a7b-b76a762b9cb7",
+      "score": 3,
+      "observation": null,
+      "image": "/image/85aa6bbf74d74666b6a1f02903392534.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:39:13.244Z",
+      "item": {
+        "id": "6b565248-09c5-4c82-9a7b-b76a762b9cb7",
+        "name": "PORTAS"
+      },
+      "images": [
+        {
+          "id": "02939c48-1d32-46fa-8cf6-e6f0b1d71170",
+          "checklist_item_id": "b7496008-ae39-426b-8ca4-12ef5739187e",
+          "image": "/image/49d036417bc34e008c331ffde3851862.jpeg",
+          "size": 94697,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:31:07.142Z"
+        },
+        {
+          "id": "27efec49-fbf4-43f1-8d1d-182c730ca648",
+          "checklist_item_id": "b7496008-ae39-426b-8ca4-12ef5739187e",
+          "image": "/image/85aa6bbf74d74666b6a1f02903392534.jpeg",
+          "size": 77118,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:39:13.247Z"
+        },
+        {
+          "id": "1e39631f-7066-4d07-994f-9bc1b3354f5c",
+          "checklist_item_id": "b7496008-ae39-426b-8ca4-12ef5739187e",
+          "image": "/image/196d50a8100d49649027ccd88484e1db.jpeg",
+          "size": 142328,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:39:13.247Z"
+        }
+      ]
+    },
+    {
+      "id": "776a26d9-b3be-4f70-a02d-1d8ec8d7ee17",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "92fb0142-38f2-41c4-ad7f-4d856d21b52e",
+      "score": 3,
+      "observation": null,
+      "image": "/image/69d85da6b4cd41ac99fc752f2360d45c.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:28:18.980Z",
+      "item": {
+        "id": "92fb0142-38f2-41c4-ad7f-4d856d21b52e",
+        "name": "REFEITÓRIO"
+      },
+      "images": [
+        {
+          "id": "96f891c9-5acf-40a5-9832-94f7bc3fc480",
+          "checklist_item_id": "776a26d9-b3be-4f70-a02d-1d8ec8d7ee17",
+          "image": "/image/69d85da6b4cd41ac99fc752f2360d45c.jpeg",
+          "size": 139855,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:09.327Z"
+        },
+        {
+          "id": "87e5fcd3-f548-43c1-8ead-e938b15230c0",
+          "checklist_item_id": "776a26d9-b3be-4f70-a02d-1d8ec8d7ee17",
+          "image": "/image/65e763e1295e4b60be46443ab2fa8ba2.jpeg",
+          "size": 111510,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:09.327Z"
+        },
+        {
+          "id": "ace393a2-388a-421d-b180-192e2380f3e3",
+          "checklist_item_id": "776a26d9-b3be-4f70-a02d-1d8ec8d7ee17",
+          "image": "/image/9a6fcaab5fe84cc4aa663766ebeb9957.jpeg",
+          "size": 85627,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:09.327Z"
+        },
+        {
+          "id": "5b5cfbdd-22d2-4675-9b84-e064797b1103",
+          "checklist_item_id": "776a26d9-b3be-4f70-a02d-1d8ec8d7ee17",
+          "image": "/image/43ea7d2c2f714598b3fa17be6d5875c8.jpeg",
+          "size": 139855,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:09.327Z"
+        },
+        {
+          "id": "7036d5fa-ca68-411d-b35e-7f51b3042128",
+          "checklist_item_id": "776a26d9-b3be-4f70-a02d-1d8ec8d7ee17",
+          "image": "/image/43bcf714b0024d62aa45ae969e379629.jpeg",
+          "size": 137508,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:09.327Z"
+        },
+        {
+          "id": "44b7c826-b1e8-4aa9-b0c3-928411f866df",
+          "checklist_item_id": "776a26d9-b3be-4f70-a02d-1d8ec8d7ee17",
+          "image": "/image/4e8af946caf94fa3a2fece970c1a9874.jpeg",
+          "size": 120416,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:09.327Z"
+        },
+        {
+          "id": "9daa3b77-f4f8-4ef0-bc33-6610a119d8f0",
+          "checklist_item_id": "776a26d9-b3be-4f70-a02d-1d8ec8d7ee17",
+          "image": "/image/f37f155ffbb3492fa1c70dc9b38e74db.jpeg",
+          "size": 144506,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:09.327Z"
+        },
+        {
+          "id": "1e6d6f02-894c-40d5-b7b6-73c66e4b065e",
+          "checklist_item_id": "776a26d9-b3be-4f70-a02d-1d8ec8d7ee17",
+          "image": "/image/f2b633dd40cb406cb71b57dcdeed0ccc.jpeg",
+          "size": 128813,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:09.327Z"
+        }
+      ]
+    },
+    {
+      "id": "3f1d9953-ab28-4db8-a032-702326ba4b43",
+      "checklist_id": "b8976bda-0cb7-49b1-b17c-82916aaf234d",
+      "item_id": "55deedb6-d9b9-4543-9196-debf03f464b6",
+      "score": 3,
+      "observation": null,
+      "image": "/image/3f121c9ce526477b86c3cffc71904f1f.jpeg",
+      "is_inspected": true,
+      "is_valid": null,
+      "created_at": "2025-11-19T12:17:27.375Z",
+      "updated_at": "2025-11-19T12:43:40.696Z",
+      "item": {
+        "id": "55deedb6-d9b9-4543-9196-debf03f464b6",
+        "name": "UTENSÍLIOS"
+      },
+      "images": [
+        {
+          "id": "5574282b-9b1e-40f7-a5ab-33d815e66f58",
+          "checklist_item_id": "3f1d9953-ab28-4db8-a032-702326ba4b43",
+          "image": "/image/65c16b3dc19b4d7f82c19f74b099987e.jpeg",
+          "size": 124330,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:29.310Z"
+        },
+        {
+          "id": "61f8f4e4-5dea-4ace-9b97-8a90585125f4",
+          "checklist_item_id": "3f1d9953-ab28-4db8-a032-702326ba4b43",
+          "image": "/image/2d5ae3b85a75460e8ac575f42eb53420.jpeg",
+          "size": 71924,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:28:29.310Z"
+        },
+        {
+          "id": "460ee3ec-c229-408b-aa2e-4fae7f1acdbc",
+          "checklist_item_id": "3f1d9953-ab28-4db8-a032-702326ba4b43",
+          "image": "/image/ff1a1de2dcb44617a0ad741a7cce6ecf.jpeg",
+          "size": 82880,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:42:17.049Z"
+        },
+        {
+          "id": "689d0cba-bd11-458e-a2e3-e8e29dec62e5",
+          "checklist_item_id": "3f1d9953-ab28-4db8-a032-702326ba4b43",
+          "image": "/image/3f121c9ce526477b86c3cffc71904f1f.jpeg",
+          "size": 136403,
+          "format": "image/jpeg",
+          "observation": null,
+          "created_at": "2025-11-19T12:42:25.105Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,39 @@
-import { Footer } from "../ui/footer";
 import { Card } from "../ui/card";
 import { Label } from "../ui/label";
 import { Bad, Good, NA, Regular } from "../ui/icons";
 import { TableCell, TableHead } from "../ui/table/table";
 import { Indicator } from "../ui/indicator";
 import { Line } from "../ui/line";
+
+const Radio = ({ selected }) => {
+  return (
+    <span
+      className={`inline-block w-5 h-5 rounded-full border-2 mx-auto ${
+        selected ? "border-primary" : "border-gray-300"
+      }`}
+      style={{
+        display: "block",
+        margin: "0 auto",
+        position: "relative",
+      }}
+    >
+      {selected && (
+        <span
+          style={{
+            position: "absolute",
+            width: "12px",
+            height: "12px",
+            borderRadius: "50%",
+            backgroundColor: "currentColor",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+          }}
+        />
+      )}
+    </span>
+  );
+};
 
 const Report = ({ data }) => {
   const formatPhone = (str) => {
@@ -34,7 +63,7 @@ const Report = ({ data }) => {
       </p>
       <Card className={"mb-2"}>
         <Line className={"gap-4"}>
-          <Label title={"ÓRGÃO"}>{data.organization?.name}</Label>
+          <Label title={"ÓRGÃO"}>{data.organization?.acronym}</Label>
           <Label
             title={"UNIDADE ADMINISTRATIVA"}
             className={"flex-2 overflow-hidden text-ellipsis"}
@@ -60,7 +89,13 @@ const Report = ({ data }) => {
         </Line>
       </Card>
       <Card className={"mb-2"}>
-        <table className="w-full [&_tr:last-child]:border-0">
+        <table
+          className="w-full [&_tr:last-child]:border-0"
+          style={{
+            borderCollapse: "collapse",
+            borderSpacing: 0,
+          }}
+        >
           <thead>
             <tr>
               <TableHead></TableHead>
@@ -87,36 +122,16 @@ const Report = ({ data }) => {
               <tr key={item.id} className="border-primary border-b">
                 <TableCell width="60%">{item.item.name}</TableCell>
                 <TableCell className="text-center">
-                  <input
-                    disabled
-                    type="radio"
-                    value="bom"
-                    checked={item.score === 3}
-                  />
+                  <Radio selected={item.score === 3} />
                 </TableCell>
                 <TableCell className="text-center">
-                  <input
-                    disabled
-                    type="radio"
-                    value="regular"
-                    checked={item.score === 1}
-                  />
+                  <Radio selected={item.score === 1} />
                 </TableCell>
                 <TableCell className="text-center">
-                  <input
-                    disabled
-                    type="radio"
-                    value="ruim"
-                    checked={item.score === -2}
-                  />
+                  <Radio selected={item.score === -2} />
                 </TableCell>
                 <TableCell className="text-center">
-                  <input
-                    disabled
-                    type="radio"
-                    value="ruim"
-                    checked={item.score === 0}
-                  />
+                  <Radio selected={item.score === 0} />
                 </TableCell>
               </tr>
             ))}
