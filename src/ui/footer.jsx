@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="logo-footer">
         <img
-          src="https://seplag.mt.gov.br/img/LOGO%20SEPLAG%20-%20BRANCO%20(T)%20VAZADO.png"
+          src="https://www.seplag.mt.gov.br/documents/d/seplag/logo_seplag-png"
           alt="seplag-logo"
         ></img>
       </div>
