@@ -5,7 +5,7 @@
   "scripts": {
     "start": "babel-node ./src/index.js",
     "dev": "nodemon --exec babel-node ./src/index.js",
-    "build:css": "npx @tailwindcss/cli -i ./src/public/paged.css  -o ./src/public/styles.css --watch"
+    "build:css": "npx tailwindcss -i ./src/public/paged.css  -o ./src/public/styles.css --watch"
   },
   "keywords": [],
   "author": "",
