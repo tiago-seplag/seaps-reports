@@ -26,6 +26,7 @@ const Report = ({ data }) => {
 
   return (
     <>
+      <Footer />
       <h1 className="text-center text-3xl/8 font-bold">
         CHECKLIST MANUTENÇÃO PREDIAL
       </h1>
@@ -60,32 +61,40 @@ const Report = ({ data }) => {
         </Line>
       </Card>
       <Card className={"mb-2"}>
-        <table className="w-full [&_tr:last-child]:border-0">
+        <table className="w-full table-fixed [&_tr:last-child]:border-0">
           <thead>
             <tr>
-              <TableHead></TableHead>
-              <TableHead className="text-center">
-                <Good />
-                BOM
+              <TableHead className="w-[60%]"></TableHead>
+              <TableHead className="text-center text-xs">
+                <div className="flex flex-col items-center gap-1">
+                  <Good />
+                  BOM
+                </div>
               </TableHead>
-              <TableHead className="text-center">
-                <Regular />
-                REGULAR
+              <TableHead className="text-center text-xs">
+                <div className="flex flex-col items-center gap-1">
+                  <Regular />
+                  REGULAR
+                </div>
               </TableHead>
-              <TableHead className="text-center">
-                <Bad />
-                RUIM
+              <TableHead className="text-center text-xs">
+                <div className="flex flex-col items-center gap-1">
+                  <Bad />
+                  RUIM
+                </div>
               </TableHead>
-              <TableHead className="text-center">
-                <NA />
-                N/A
+              <TableHead className="text-center text-xs">
+                <div className="flex flex-col items-center gap-1">
+                  <NA />
+                  N/A
+                </div>
               </TableHead>
             </tr>
           </thead>
           <tbody>
             {data.items.map((item) => (
-              <tr key={item.id} className="border-primary border-b">
-                <TableCell width="60%">{item.item.name}</TableCell>
+              <tr key={item.id} className="border-b border-primary">
+                <TableCell>{item.item.name}</TableCell>
                 <TableCell className="text-center">
                   <input
                     disabled
@@ -140,7 +149,7 @@ const Report = ({ data }) => {
           </Label>
         </Line>
       </Card>
-      <section className="flex h-full flex-col">
+      <section className="h-full">
         {data.items.map(
           (item) =>
             item.score !== 0 && (

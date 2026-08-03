@@ -601,8 +601,8 @@ video {
   height: 100%;
 }
 
-.w-\[80px\] {
-  width: 80px;
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .w-full {
@@ -611,6 +611,10 @@ video {
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.table-fixed {
+  table-layout: fixed;
 }
 
 .break-before-page {
@@ -770,6 +774,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -795,7 +804,7 @@ video {
 @page {
   size: A4;
 
-  margin: 5mm 5mm 25mm;
+  margin: 5mm 5mm 20mm;
 
   padding: 0 0 4mm;
 
@@ -803,6 +812,8 @@ video {
 
   @bottom-left {
     background-color: #0a8a97;
+
+    width: 100%;
 
     content: element(logoFooter);
   }
@@ -856,7 +867,7 @@ video {
 
 .footer > p {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 12px;
 }
 
 .logo-footer > img {
@@ -872,6 +883,10 @@ body {
 }
 
 input[type="radio"] {
+  /* WeasyPrint's UA stylesheet forces display:block on radio/checkbox
+     inputs, which text-align:center can't center. Force inline-block so
+     the parent cell's text-align actually centers it. */
+  display: inline-block;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -890,6 +905,15 @@ input[type="radio"]:checked {
   border-color: #1a3280;
 }
 
+/* WeasyPrint's UA stylesheet draws a black ::before over checked
+   checkboxes/radios (form-widget default appearance); neutralize it so
+   our own background-color above is what actually shows. */
+
+input[type="radio"]::before,
+input[type="checkbox"]::before {
+  content: none;
+}
+
 .\[\&\:has\(\[role\=checkbox\]\)\]\:pr-0:has([role=checkbox]) {
   padding-right: 0px;
 }
@@ -899,9 +923,8 @@ input[type="radio"]:checked {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.\[\&\>svg\]\:mx-auto>svg {
-  margin-left: auto;
-  margin-right: auto;
+.\[\&_svg\]\:inline-block svg {
+  display: inline-block;
 }
 
 .\[\&_tr\:last-child\]\:border-0 tr:last-child {
