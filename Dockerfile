@@ -1,4 +1,18 @@
-FROM node:20-bookworm-slim AS node-deps
+# 1. Compila o TypeScript e gera o CSS do Tailwind em dist/
+FROM node:24-bookworm-slim AS build
+
+WORKDIR /app
+
+COPY package*.json ./
+RUN npm ci
+
+COPY tsconfig.json tsconfig.build.json tailwind.config.js ./
+COPY src ./src
+RUN npm run build
+
+
+# 2. Só as dependências de produção
+FROM node:24-bookworm-slim AS node-deps
 
 WORKDIR /app
 
@@ -6,6 +20,7 @@ COPY package*.json ./
 RUN npm ci --omit=dev && npm cache clean --force
 
 
+# 3. Python (WeasyPrint) + Node
 FROM python:3.11-slim-bookworm AS runtime
 
 ENV NODE_ENV=production \
@@ -32,7 +47,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     fonts-dejavu-core \
     fonts-liberation2 \
     && rm -rf /var/lib/apt/lists/* \
-    && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+    && curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
     && apt-get update && apt-get install -y --no-install-recommends nodejs \
     && apt-get purge -y --auto-remove curl gnupg \
     && rm -rf /var/lib/apt/lists/*
@@ -44,10 +59,13 @@ RUN pip install --no-cache-dir --upgrade pip setuptools wheel \
 RUN useradd --create-home --uid 10001 appuser
 
 COPY --from=node-deps /app/node_modules ./node_modules
-COPY --chown=appuser:appuser . .
+COPY --from=build /app/dist ./dist
+COPY package.json ./
+COPY python ./python
+RUN mkdir logs && chown appuser:appuser logs
 
 USER appuser
 
 EXPOSE 8080
 
-CMD ["node_modules/.bin/babel-node", "src/index.js"]
+CMD ["node", "dist/server.js"]

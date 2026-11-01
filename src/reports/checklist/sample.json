@@ -1,0 +1,38 @@
+{
+  "id": "0b8f6a52-6d0e-4a4e-9a51-1f3c2d9e7a10",
+  "sid": "0006/25",
+  "status": "CLOSED",
+  "score": 2.2,
+  "classification": 1,
+  "finished_at": "2025-05-14T15:32:10.000Z",
+  "organization": { "id": "org-1", "name": "SEPLAG", "acronym": "SEPLAG" },
+  "user": { "id": "user-1", "name": "Maria da Silva Pereira" },
+  "property": {
+    "id": "prop-1",
+    "name": "Sede Administrativa - Bloco III",
+    "address": "Rua C, s/n, Centro Político Administrativo, Cuiabá - MT, 78049-005",
+    "city": "Cuiabá",
+    "state": "MT",
+    "type": "PROPRIO",
+    "person": {
+      "id": "person-1",
+      "name": "João Carlos de Souza",
+      "email": "joao@example.com",
+      "phone": "65999998888",
+      "role": "Coordenador de Patrimônio"
+    }
+  },
+  "items": [
+    { "id": "i1", "score": 3, "observation": null, "item": { "id": "t1", "name": "Cobertura e telhado" }, "images": [] },
+    { "id": "i2", "score": 1, "observation": "Pintura descascando na fachada norte, próximo à entrada principal.", "item": { "id": "t2", "name": "Fachada e pintura externa" }, "images": [
+      { "id": "img1", "image": "/checklists/sample/fachada-1.jpg", "observation": "Fachada norte" },
+      { "id": "img2", "image": "/checklists/sample/fachada-2.jpg", "observation": null }
+    ] },
+    { "id": "i3", "score": -2, "observation": "Infiltração no forro da sala 12. Risco de queda do gesso.", "item": { "id": "t3", "name": "Forro e teto" }, "images": [
+      { "id": "img3", "image": "/checklists/sample/forro-1.jpg", "observation": "Sala 12, parede leste" }
+    ] },
+    { "id": "i4", "score": 0, "observation": null, "item": { "id": "t4", "name": "Elevadores" }, "images": [] },
+    { "id": "i5", "score": 3, "observation": null, "item": { "id": "t5", "name": "Instalações elétricas" }, "images": [] },
+    { "id": "i6", "score": 3, "observation": null, "item": { "id": "t6", "name": "Instalações hidrossanitárias" }, "images": [] }
+  ]
+}
